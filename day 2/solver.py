@@ -1,0 +1,1 @@
+print(sum([1 if int(j[0]) <= sum([1 if j[2]==i else 0 for i in j[3]]) <= int(j[1]) else 0 for j in [__import__('re').split('-| |: |\n', i)[0:4] for i in open('input.txt', 'r').readlines()]]))
