@@ -28,8 +28,8 @@ def count(i,j):
 	return filled
 
 i=0
+list2 = copy.deepcopy(list)
 while True:
-	list2 = copy.deepcopy(list)
 	for m,val1 in enumerate(list):
 		for n,val2 in enumerate(val1):
 			if list[m][n] != '.':
