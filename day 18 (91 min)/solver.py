@@ -1,4 +1,3 @@
-import re
 a = [list(i) for i in open('input.txt', 'r').read().split('\n')]
 def evaluate(i):
 	next_op = ''
